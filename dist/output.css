@@ -620,6 +620,10 @@ video {
   display: block;
 }
 
+.flex{
+  display: flex;
+}
+
 .h-\[fit-content\]{
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -646,6 +650,18 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .rounded-xl{
@@ -867,6 +883,10 @@ video {
 @media (min-width: 1024px){
   .lg\:flex{
     display: flex;
+  }
+
+  .lg\:h-\[50px\]{
+    height: 50px;
   }
 
   .lg\:w-\[50\%\]{
