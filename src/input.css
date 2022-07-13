@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .hide {
+        @apply hidden
+    }
+    .mtop {
+        @apply mt-[20px]
+    }
+    .red::placeholder {
+        @apply text-[#ff7a7a]
+     }
+}
