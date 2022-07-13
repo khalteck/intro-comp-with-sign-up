@@ -620,6 +620,20 @@ video {
   display: block;
 }
 
+.h-\[fit-content\]{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[100px\]{
+  height: 100px;
+}
+
+.h-\[60px\]{
+  height: 60px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -728,6 +742,11 @@ video {
 .py-\[18px\]{
   padding-top: 18px;
   padding-bottom: 18px;
+}
+
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .pt-\[70px\]{
