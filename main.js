@@ -36,3 +36,54 @@ document.getElementById("submit-btn").addEventListener("click", () => {
         document.getElementById("pass-err-sign").classList.add("hide");
     }
 })
+
+/*const submitBtn = document.getElementById("submit-btn");
+const container = document.querySelectorAll(".cont");
+
+container.forEach((item, index) => {
+    let errorMessage = container[index].lastElementChild;
+    let errorSign = container[index].firstElementChild;
+    submitBtn.addEventListener("click", () => {
+        let arr = [
+            document.forms["form"]["firstname"],
+            document.forms["form"]["lastname"],
+            document.forms["form"]["email"],
+            document.forms["form"]["password"]
+        ];
+        arr.forEach((item2, idx) => {
+            if (idx.value == "" || idx.value == null) {
+                errorMessage.classList.remove("hide");
+                errorSign.classList.remove("hide");
+            } else {
+                errorMessage.classList.add("hide");
+                errorSign.classList.add("hide");
+            }
+        })
+    })
+})*/
+/*submitBtn.addEventListener("click", () => {
+    let arr = [
+        document.forms["form"]["firstname"],
+        document.forms["form"]["lastname"],
+        document.forms["form"]["email"],
+        document.forms["form"]["password"]
+    ];
+    for(let i = 0; i < arr.length; i++) {
+        let inputValue = arr[i].value;
+        if (inputValue == "" || inputValue == null) {
+            container.forEach((item, index) => {
+                let errorMessage = container[index].lastElementChild;
+                let errorSign = container[index].firstElementChild;
+                errorMessage.classList.remove("hide");
+                errorSign.classList.remove("hide");
+            })
+        } else if (inputValue != "" || inputValue != null) {
+            container.forEach((item, index) => {
+                let errorMessage = container[index].lastElementChild;
+                let errorSign = container[index].firstElementChild;
+                errorMessage.classList.add("hide");
+                errorSign.classList.add("hide");
+            })
+        }
+    }
+})*/
